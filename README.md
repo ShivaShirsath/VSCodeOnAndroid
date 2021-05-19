@@ -19,8 +19,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### TermUX 
-# [⍗](https://play.google.com/store/apps/details?id=com.termux>)   [⇱](https://f-droid.org/en/packages/com.termux)
+## TermUX 
+# [⍗](https://play.google.com/store/apps/details?id=com.termux)
+# [⇱](https://f-droid.org/en/packages/com.termux)
 
 Termux is an Android terminal application and Linux environment, which can also run code-server from your phone.
 
@@ -40,9 +41,7 @@ apt install build-essential python git nodejs yarn
 ```bash
 yarn global add code-server
 ```
-<!--
-5. Run code-server: `code-server` and navigate to localhost:8080 in your browser
--->
+
 ## Password
 ```bash
 nano ~/.config/code-server/config.yaml
