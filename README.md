@@ -37,7 +37,7 @@ apt install build-essential python git nodejs yarn
 ```
 
 ## Installation
-```yarn
+```bash
 yarn global add code-server
 ```
 <!--
