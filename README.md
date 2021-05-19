@@ -45,12 +45,13 @@ yarn global add code-server
 5. Run code-server: `code-server` and navigate to localhost:8080 in your browser
 -->
 ## Password
-
 ```bash
 nano ~/.config/code-server/config.yaml
 ```
-
 ## Run
+## RUN
+
+52
 
 ```bash
 code-server
@@ -60,26 +61,16 @@ code-server
 termux-open --chooser http://127.0.0.1/8080
 ```
 ## Stop 
-O TER
-
-64
-
-
-
-65
-
-
-
-66
-
-
+Open TermUX then :
 ```
 Ctrl+C
 ```
 
 ## Upgrading
 
-To upgrade run: `yarn global upgrade code-server --latest`
+```bash
+yarn global upgrade code-server --latest
+```
 
 ## Known Issues
 
