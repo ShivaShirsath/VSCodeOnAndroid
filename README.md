@@ -4,10 +4,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Termux](#termux)
+  - [TermUX](#termux)
+  - [Update + Upgreade](#update)
+  - [Required Packages](#required)
   - [Installation](#installation)
   - [Password](#password)
   - [Run](#run)
+  - [Open](#open)
   - [Stop](#stop)
   - [Upgrading](#upgrading)
   - [Known Issues](#known-issues)
@@ -16,7 +19,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<h3>Termux</h3><h1><a href=https://play.google.com/store/apps/details?id=com.termux>⍗</a></h1><h2> [⇱](https://f-droid.org/en/packages/com.termux)</h2>
+### TermUX [⍗](https://play.google.com/store/apps/details?id=com.termux>)   [⇱](https://f-droid.org/en/packages/com.termux)
 
 Termux is an Android terminal application and Linux environment, which can also run code-server from your phone.
 
@@ -30,7 +33,7 @@ apt update && apt upgrade
 apt install build-essential python git nodejs yarn
 ```
 
-### Install
+### Installation
 ```bash
 yarn global add code-server
 ```
