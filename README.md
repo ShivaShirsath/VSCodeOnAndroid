@@ -8,7 +8,7 @@
   - [Installation](#installation)
   - [Change Password](#changepassword)
   - [Run](#run)
-  - [Exit](#exit)
+  - [Stop](#stop)
   - [Upgrading](#upgrading)
   - [Known Issues](#known-issues)
     - [Search issue](#search-issue)
@@ -31,8 +31,21 @@ Termux is an Android terminal application and Linux environment, which can also 
 ## Change Password
 
 ```bash
-nano ~ j
-/.config/code-server/config.yaml
+nano ~/.config/code-server/config.yaml
+```
+
+## Run
+
+```bash
+code-server
+```
+
+## Stop 
+
+```
+Ctrl+C
+```
+
 ## Upgrading
 
 To upgrade run: `yarn global upgrade code-server --latest`
