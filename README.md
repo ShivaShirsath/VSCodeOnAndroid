@@ -6,7 +6,7 @@
 
 - [Termux](#termux)
   - [Installation](#installation)
-  - [Change Password](#change)
+  - [Password](#password)
   - [Run](#run)
   - [Stop](#stop)
   - [Upgrading](#upgrading)
@@ -28,7 +28,7 @@ Termux is an Android terminal application and Linux environment, which can also 
 4. Install code-server: `yarn global add code-server`
 5. Run code-server: `code-server` and navigate to localhost:8080 in your browser
 
-## Change Password
+## Password
 
 ```bash
 nano ~/.config/code-server/config.yaml
