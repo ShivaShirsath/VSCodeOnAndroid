@@ -6,7 +6,7 @@
 
 - [Termux](#termux)
   - [Installation](#installation)
-  - [Change Password](#change password)
+  - [Change Password](#change)
   - [Run](#run)
   - [Stop](#stop)
   - [Upgrading](#upgrading)
