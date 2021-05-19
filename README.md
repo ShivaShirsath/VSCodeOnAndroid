@@ -16,18 +16,34 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Termux
+# Termux [⍗](https://play.google.com/store/apps/details?id=com.termux) [⇱](https://f-droid.org/en/packages/com.termux)
 
 Termux is an Android terminal application and Linux environment, which can also run code-server from your phone.
 
+### update & upgrade TermUX
+```bash
+apt update && apt upgrade
+```
+
+
+
 ## Installation
-
-1. Install Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/)
+<!--
+1. Install Termux from [F-Droid]
 2. Make sure it's up-to-date by running `apt update && apt upgrade`
-3. Install required packages: `apt install build-essential python git nodejs yarn`
-4. Install code-server: `yarn global add code-server`
-5. Run code-server: `code-server` and navigate to localhost:8080 in your browser
+-->
+### Required packages : 
+```bash
+apt install build-essential python git nodejs yarn
+```
 
+### Install
+```bash
+yarn global add code-server
+```
+<!--
+5. Run code-server: `code-server` and navigate to localhost:8080 in your browser
+-->
 ## Password
 
 ```bash
@@ -39,8 +55,23 @@ nano ~/.config/code-server/config.yaml
 ```bash
 code-server
 ```
-
+## Open
+```bash
+termux-open --chooser http://127.0.0.1/8080
+```
 ## Stop 
+O TER
+
+64
+
+
+
+65
+
+
+
+66
+
 
 ```
 Ctrl+C
