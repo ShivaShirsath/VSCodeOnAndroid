@@ -49,9 +49,6 @@ yarn global add code-server
 nano ~/.config/code-server/config.yaml
 ```
 ## Run
-## RUN
-
-52
 
 ```bash
 code-server
