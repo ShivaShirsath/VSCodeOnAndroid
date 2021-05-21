@@ -53,7 +53,7 @@ yarn global add code-server -y
   
 ## Stop 
 
-Open 1ˢᵗ SESSION of TermUX then press ` Ctrl+C `
+Open TermUX then press ` Ctrl+C `
 
 ## Password
 ```bash
