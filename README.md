@@ -28,18 +28,18 @@ Termux is an Android terminal application and Linux environment, which can also 
 ## Upgrade
 ### update & upgrade TermUX
 ```bash
-apt update && apt upgrade
+apt update && apt upgrade -y
 ```
 
 ## Required
 ### packages : 
 ```bash
-apt install build-essential python git nodejs yarn
+apt install build-essential python git nodejs yarn -y
 ```
 
 ## Installation
 ```bash
-yarn global add code-server
+yarn global add code-server -y
 ```
 
 ## Password
