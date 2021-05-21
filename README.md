@@ -20,8 +20,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## TermUX 
-# [⍗](https://play.google.com/store/apps/details?id=com.termux)
-# [⇱](https://f-droid.org/en/packages/com.termux)
+### install [⍗](https://play.google.com/store/apps/details?id=com.termux) [⇱](https://f-droid.org/en/packages/com.termux)
 
 Termux is an Android terminal application and Linux environment, which can also run code-server from your phone.
 
