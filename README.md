@@ -52,14 +52,18 @@ nano ~/.config/code-server/config.yaml
 code-server
 ```
 ## Open
-```bash
-termux-open --chooser http://127.0.0.1/8080
-```
+  - Swipe left drawer 
+  - Click on NEW SESSION
+  - Type following command :
+  ```bash
+  termux-open --chooser http://127.0.0.1/8080
+  ```
+
 ## Stop 
-Open TermUX then :
-```
+Open 1ˢᵗ SESSION of TermUX then press 
+`
 Ctrl+C
-```
+`
 
 ## Upgrading
 
