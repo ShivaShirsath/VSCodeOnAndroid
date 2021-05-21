@@ -11,6 +11,7 @@
   - [Password](#password)
   - [Run](#run)
   - [Open](#open)
+  - [Combine](#combine)
   - [Stop](#stop)
   - [Upgrading](#upgrading)
   - [Known Issues](#known-issues)
@@ -58,8 +59,14 @@ code-server
   ```bash
   termux-open --chooser http://127.0.0.1/8080
   ```
-
+# Combine
+  - Open & Run 
+  ```
+  termux-open --chooser http://127.0.0.1:8080/login && code-server
+  ```
+  - Reload Or Wait 3 seconds
 ## Stop 
+
 Open 1ˢᵗ SESSION of TermUX then press 
 `
 Ctrl+C
