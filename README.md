@@ -46,17 +46,15 @@ yarn global add code-server -y
 ## Open
 
   - Open & Run 
-  ```
-  termux-open --chooser http://127.0.0.1:8080/login && code-server
-  ```
+    ```
+    termux-open --chooser http://127.0.0.1:8080/login && code-server
+    ```
   - Reload Or Wait 3 seconds
   
 ## Stop 
 
-Open 1ˢᵗ SESSION of TermUX then press 
-`
-Ctrl+C
-`
+Open 1ˢᵗ SESSION of TermUX then press ` Ctrl+C `
+
 ## Password
 ```bash
 nano ~/.config/code-server/config.yaml
