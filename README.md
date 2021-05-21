@@ -49,7 +49,7 @@ yarn global add code-server -y
     ```
     termux-open --chooser http://127.0.0.1:8080/login && code-server
     ```
-  - Reload Or Wait 3 seconds
+  - Reload Or Wait ʒ seconds
   
 ## Stop 
 
