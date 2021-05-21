@@ -8,11 +8,10 @@
   - [Update + Upgreade](#upgrade)
   - [Required Packages](#required)
   - [Installation](#installation)
-  - [Password](#password)
   - [Run](#run)
   - [Open](#open)
-  - [Combine](#combine)
   - [Stop](#stop)
+  - [Password](#password)
   - [Upgrading](#upgrading)
   - [Known Issues](#known-issues)
     - [Search issue](#search-issue)
@@ -43,35 +42,25 @@ apt install build-essential python git nodejs yarn -y
 yarn global add code-server -y
 ```
 
-## Password
-```bash
-nano ~/.config/code-server/config.yaml
-```
-## Run
 
-```bash
-code-server
-```
 ## Open
-  - Swipe left drawer 
-  - Click on NEW SESSION
-  - Type following command :
-  ```bash
-  termux-open --chooser http://127.0.0.1/8080
-  ```
-# Combine
+
   - Open & Run 
   ```
   termux-open --chooser http://127.0.0.1:8080/login && code-server
   ```
   - Reload Or Wait 3 seconds
+  
 ## Stop 
 
 Open 1ˢᵗ SESSION of TermUX then press 
 `
 Ctrl+C
 `
-
+## Password
+```bash
+nano ~/.config/code-server/config.yaml
+```
 ## Upgrading
 
 ```bash
