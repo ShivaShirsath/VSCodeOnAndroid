@@ -59,7 +59,7 @@ nano ~/.config/code-server/config.yaml
 ## Upgrading
 
 ```bash
-yarn global upgrade code-server --latest
+FORCE_NODE_VERSION=17 yarn global upgrade code-server --latest
 ```
 
 ## Known Issues
