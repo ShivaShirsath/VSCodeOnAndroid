@@ -36,9 +36,7 @@ apt install build-essential python git nodejs yarn -y
 ```
 
 ## Installation
-```bash
-yarn global add code-server -y
-```
+[`curl -fsSL https://code-server.dev/install.sh | sh`](https://github.com/coder/code-server#:~:text=To%20install%2C%20run%3A-,curl%20%2DfsSL%20https%3A//code%2Dserver.dev/install.sh%20%7C%20sh,-When%20done%2C%20the)
 
 
 ## Open
