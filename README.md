@@ -1,9 +1,9 @@
 <h1 align=center>VS Code On Android</h1>
 
 + Install directly from web 
-  - VS code [⇱](https://vscode.dev/github)
-  - VS code insider [⇱](https://insiders.vscode.dev/github)
-  - Github dev [⇱](https://github.dev)
+  - [⇱](https://vscode.dev/github) VS code
+  - [⇱](https://insiders.vscode.dev/github) VS code insider 
+  - [⇱](https://github.dev) Github dev 
 
 Or
 
