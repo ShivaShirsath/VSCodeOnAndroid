@@ -41,7 +41,7 @@ echo -e "bind-addr: 127.0.0.1:8080\nauth: none\ncert: false" > ~/.config/code-se
 ## Open
 - Open & Run 
   ```
-  termux-open --chooser http://127.0.0.1:8080/login && code-server
+  termux-open http://127.0.0.1:8080 && code-server .
   ```
 - Reload Or Wait ʒ seconds
   
