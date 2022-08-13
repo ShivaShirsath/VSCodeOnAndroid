@@ -7,24 +7,15 @@
 
 Or
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
   - [TermUX](#termux)
   - [Update + Upgreade](#upgrade)
-  - [Required Packages](#required)
   - [Installation](#installation)
-  - [Run](#run)
+  - [Configuration](#configuration)
   - [Open](#open)
   - [Stop](#stop)
-  - [Password](#password)
   - [Upgrading](#upgrading)
-  - [Known Issues](#known-issues)
-    - [Search issue](#search-issue)
-    - [Backspace not working](#backspace-not-working)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+***
 
 ## TermUX  [⍗](https://play.google.com/store/apps/details?id=com.termux)   [⇱](https://f-droid.org/en/packages/com.termux)
 
@@ -48,12 +39,11 @@ echo -e "bind-addr: 127.0.0.1:8080\nauth: none\ncert: false" > ~/.config/code-se
 ```
 
 ## Open
-
-  - Open & Run 
-    ```
-    termux-open --chooser http://127.0.0.1:8080/login && code-server
-    ```
-  - Reload Or Wait ʒ seconds
+- Open & Run 
+  ```
+  termux-open --chooser http://127.0.0.1:8080/login && code-server
+  ```
+- Reload Or Wait ʒ seconds
   
 ## Stop 
 
