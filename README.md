@@ -37,15 +37,9 @@ termux-change-repo && pkg update -y && pkg upgrade -y
 ```
 select `Mirror Group` then `Mirrors in Asia`
 
-## Required
-+ packages : 
-  ```bash
-  pkg install -y build-essential binutils pkg-config python3 yarn nodejs-lts && npm config set python python3
-  ```
-
 ## Installation
 ```bash
-yarn global add code-server
+pkg install -y build-essential binutils pkg-config python3 yarn nodejs-lts && npm config set python python3 && yarn global add code-server
 ```
 
 ## Configuration
