@@ -1,4 +1,4 @@
-<h1 align=center>VS Code On Android</h1>
+<h1 align=center>VS Code<br>On<br>Android</h1>
 
 + Install directly from web 
   - [⇱](https://vscode.dev/github) VS code
