@@ -68,7 +68,7 @@ Open TermUX then press ` Ctrl+C `
 ## Upgrading
 
 ```bash
-rm -rf ~/.local/lib/code-server-* && yarn upgrade code-server
+yarn upgrade code-server
 ```
 
 ## [©](https://coder.com/docs/code-server/latest/termux#yarn-installation)
