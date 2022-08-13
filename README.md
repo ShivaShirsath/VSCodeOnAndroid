@@ -33,19 +33,25 @@ Termux is an Android terminal application and Linux environment, which can also 
 ## Upgrade
 ### update & upgrade TermUX
 ```bash
-apt update && apt upgrade -y
+termux-change-repo && pkg update -y && pkg upgrade -y
 ```
+select `Mirror Group` then `Mirrors in Asia`
 
 ## Required
 ### packages : 
 ```bash
-apt install build-essential python git nodejs yarn -y
+pkg install -y build-essential binutils pkg-config python3 yarn nodejs-lts && npm config set python python3
 ```
 
 ## Installation
+```bash
+yarn global add code-server
+```
 
-[`FORCE_NODE_VERSION=17 yarn global add code-server`](https://github.com/coder/code-server#:~:text=To%20install%2C%20run%3A-,curl%20%2DfsSL%20https%3A//code%2Dserver.dev/install.sh%20%7C%20sh,-When%20done%2C%20the)
-
+## Configuration
+```bash
+echo -e "bind-addr: 127.0.0.1:8080\nauth: none\ncert: false" > ~/.config/code-server/config.yaml
+```
 
 ## Open
 
@@ -59,45 +65,10 @@ apt install build-essential python git nodejs yarn -y
 
 Open TermUX then press ` Ctrl+C `
 
-## Password
-```bash
-nano ~/.config/code-server/config.yaml
-```
 ## Upgrading
 
 ```bash
-FORCE_NODE_VERSION=17 yarn global upgrade code-server --latest
+rm -rf ~/.local/lib/code-server-* && yarn upgrade code-server
 ```
 
-## Known Issues
-
-### Search issue
-
-There is a known issue with search not working on Android because it's missing `bin/rg`. To fix:
-
-1. Install `ripgrep` with `pkg`
-   ```sh
-   pkg install ripgrep
-   ```
-2. Make a soft link using `ln -s`
-
-```sh
-# run this command inside the code-server directory
-ln -s $PREFIX/bin/rg ./lib/vscode/node_modules/vscode-ripgrep/bin/rg
-```
-
-For more context, see [comment](https://github.com/cdr/code-server/issues/1730#issuecomment-721515979).
-
-### Backspace not working
-
-There is a known issue with the backspace key not working correctly when using the on-screen keyboard on Android. This is due to an upstream issue. Read more:
-
-- [Issues with Backspace in Codespaces on Android (Surface Duo)](https://github.com/microsoft/vscode/issues/107602)
-- [Support mobile platforms](https://github.com/xtermjs/xterm.js/issues/1101)
-
-Workaround: use a Bluetooth keyboard.
-
-For more context, see issues:
-
-- [500 error: 3.9.2 not working on Android + Termux](https://github.com/cdr/code-server/issues/3036)
-- [Document Android backspace issue](https://github.com/cdr/code-server/issues/3079)
+## [©](https://coder.com/docs/code-server/latest/termux#yarn-installation)
