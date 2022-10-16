@@ -41,6 +41,7 @@ Or
 ```bash
 npm install --global code-server --unsafe-perm
 ```
+[Official](https://github.com/coder/code-server)
 
 ## Configuration
 ```bash
