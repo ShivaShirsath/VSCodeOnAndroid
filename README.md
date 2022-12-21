@@ -37,10 +37,6 @@ pkg install -y build-essential binutils pkg-config python3 yarn nodejs-lts && np
 ```bash
 yarn global add code-server
 ```
-Or
-```bash
-npm install --global code-server --unsafe-perm
-```
 [Official](https://github.com/coder/code-server)
 
 ## Configuration
@@ -51,7 +47,7 @@ echo -e "bind-addr: 127.0.0.1:8080\nauth: none\ncert: false" > ~/.config/code-se
 ## Open
 - Open & Run 
   ```
-  termux-open http://localhost:8080 && code-server . &
+  termux-open http://localhost:8080 & code-server .
   ```
 - Reload Or Wait ʒ seconds
   
@@ -62,7 +58,7 @@ Open TermUX then press ` Ctrl+C `
 ## Upgrading
 
 ```bash
-yarn upgrade code-server
+yarn global upgrade code-server
 ```
 
 ## [©](https://coder.com/docs/code-server/latest/termux#yarn-installation)
